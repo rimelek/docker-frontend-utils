@@ -5,7 +5,7 @@ The image contains Gulp, Compass, Bower and some other dependencies like NodeJS 
 You can use it to download client-side libraries via Bower, download NodeJS modules via npm, run Gulp tasks to generate CSS from SASS/SCSS sources 
 using compass or sass.
 
-# How to use it
+## How to use it
 
 You need Docker installed on your machine, and then you can run everything in a container. 
 In order to work with your project files, you have to go into your project root and mount
