@@ -52,6 +52,8 @@ wget https://raw.githubusercontent.com/rimelek/docker-frontend-utils/master/host
 These works only when you don't need other directory than the one you are in. If you need work with other directories,
 you create your own scripts and mount additional directories into the container:
 
-docker run -it --rm -v /my/additional/local/path:/my/additional/local/path -v $(pwd):$(pwd) --workdir=$(pwd) rimelek/frontend-utils bower install
+```bash
+docker run -it --rm -v /my/additional/local/path:/my/additional/local/path -v $(pwd):$(pwd) --workdir=$(pwd) rimelek/frontend-utils gulp
+```
 
 Make sure the path on your host machine is the same as on guest.
