@@ -1,3 +1,9 @@
+# (ARCHIVED) Docker image for frontend development
+
+**IMPORTANT**: This repository is not developed anymore.
+Since I began this project, components like Gulp, Compass and Bower have changed
+or not even available anymore. Instructions below may not work in the future.
+
 ## About the image
 
 The image contains Gulp, Compass, Bower and some other dependencies like NodeJS (6.9), Ruby (2.3.3) and Sass.
